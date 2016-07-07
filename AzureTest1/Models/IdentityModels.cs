@@ -29,5 +29,7 @@ namespace AzureTest1.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<AzureTest1.Models.HappyList> HappyLists { get; set; }
     }
 }
